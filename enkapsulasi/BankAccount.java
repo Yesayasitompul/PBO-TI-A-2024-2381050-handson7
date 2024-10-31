@@ -19,6 +19,6 @@ public class BankAccount {
 
     public void withDraw(double jumlah){
         if (jumlah > 0 && balance >= jumlah);
-        balance -=;
+        balance -= jumlah;
     }
 }

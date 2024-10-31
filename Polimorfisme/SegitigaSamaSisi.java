@@ -18,4 +18,4 @@ public double hitungLuas(){
 public double hitungKeliling() {
     return 3 * sisi;
   }
-
+}

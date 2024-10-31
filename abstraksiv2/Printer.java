@@ -5,7 +5,7 @@ public class Printer implements Cetak{
     public void print(){System.out.println("Mencetak Dokumen...........");}
 
     @Override
-    public void scan(){
+    public static void scan(){
         System.out.println("Memindai Dokumen..........");
     }
 }
